@@ -4,14 +4,17 @@ console.log('****** Part Supply *******');
 // 1. Create a variable called 'partsNeeded' with a value of the number 40 
 //    & console.log the variable
 console.log('1. Number of partsNeeded:');
-
+let partsNeeded = 40;
+console.log(partsNeeded);
 // 2. Create a variable call 'supplyChanges' set it to an array containing
 //    the following numbers: 3, 5, -6, 0, 7, 11
-console.log('2. Array of supplyChanges:');
-
+/*console.log('2. Array of supplyChanges:');
+let supplyChanges = [3,5,-6,0,7,11];
+console.log(supplyChanges); 
 // 3. Console log the value of the second item in the 'supplyChanges' array
 console.log('3. Second supplyChange is:');
-
+console.log(supplyChanges[supplyChanges.length - 5]);
+*/
 // 4. The last item was added by mistake. Remove it from the 'supplyChanges' 
 //    array & console.log the value removed.
 console.log('4. Removed item:');
@@ -25,7 +28,10 @@ console.log('5. Adding 25 to supplyChanges.');
 //    - if the value is 0, log 'No Change.'
 //    - if the value is negative, format the log as 'Removed x parts.' 
 console.log('6. Showing supplyChanges...');
-
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+}
 
 // STRETCH GOALS
 console.log('---  Stretch Goals  ---');
